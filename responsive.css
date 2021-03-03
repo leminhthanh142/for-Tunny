@@ -76,6 +76,9 @@
         grid-template-columns: repeat(3, 1fr);
         grid-row-gap: 50px;
     }
+    .travel-plan-box img {
+        top: 0;
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -137,5 +140,8 @@
     blockquote:after {
         font-size: 400%;
         right: -40px;
+    }
+    .navigation-items div {
+        margin-left: 10px;
     }
 }
